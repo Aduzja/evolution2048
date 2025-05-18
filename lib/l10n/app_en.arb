@@ -1,0 +1,23 @@
+{
+  "title": "EVOLUTION 2048",
+  "subtitle": "From bacteria to human",
+  "play": "PLAY",
+  "prokaryote": "Prokaryote",
+  "fish": "Fish",
+  "mammal": "Mammal",
+  "human": "Human",
+  "score": "Score",
+  "bestScore": "Best",
+  "newGame": "New Game",
+  "howToPlay": "How to play?",
+  "helpSwipe": "Swipe to move the tiles.",
+  "helpMerge": "Merge identical tiles to evolve.",
+  "helpEvolve": "Reach the highest evolution!",
+  "amoeba": "Amoeba",
+  "ok": "OK",
+  "gameOver": "Game Over!",
+  "playAgain": "Play Again",
+  "youWin": "You Win!",
+  "reachedHuman": "You reached Homo sapiens!",
+  "continueGame": "Continue"
+}

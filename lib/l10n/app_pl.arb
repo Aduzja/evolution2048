@@ -1,0 +1,23 @@
+{
+  "title": "EVOLUTION 2048",
+  "subtitle": "Od bakterii do człowieka",
+  "play": "GRAJ",
+  "prokaryote": "Prokariota",
+  "fish": "Ryba",
+  "mammal": "Ssak",
+  "human": "Człowiek",
+  "score": "Wynik",
+  "bestScore": "Rekord",
+  "newGame": "Nowa gra",
+  "howToPlay": "Jak grać?",
+  "helpSwipe": "Przesuwaj, aby poruszać kafelkami.",
+  "helpMerge": "Łącz identyczne kafelki, by ewoluować.",
+  "helpEvolve": "Osiągnij najwyższy poziom ewolucji!",
+  "amoeba": "Ameba",
+  "ok": "OK",
+  "gameOver": "Koniec gry!",
+  "playAgain": "Zagraj jeszcze raz",
+  "youWin": "Wygrałeś!",
+  "reachedHuman": "Osiągnąłeś Homo sapiens!",
+  "continueGame": "Kontynuuj"
+}
