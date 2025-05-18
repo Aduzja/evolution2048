@@ -70,4 +70,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get continueGame => 'Continue';
+
+  @override
+  String get colony => 'Multicellular Colony';
+
+  @override
+  String get jellyfish => 'Jellyfish';
+
+  @override
+  String get amphibian => 'Amphibian';
+
+  @override
+  String get reptile => 'Reptile';
+
+  @override
+  String get primate => 'Primate';
+
+  @override
+  String get earlyHuman => 'Homo habilis';
+
+  @override
+  String get modernHuman => 'Homo sapiens';
 }

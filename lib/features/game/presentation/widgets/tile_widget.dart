@@ -87,7 +87,7 @@ class _TileWidgetState extends State<TileWidget> with SingleTickerProviderStateM
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(widget.tile!.tileIcon, size: math.min(widget.size * 0.35, 24), color: widget.tile!.textColor),
+            if (widget.tile!.pngAssetPath.isNotEmpty) Image.asset(widget.tile!.pngAssetPath, height: 30),
             const SizedBox(height: 4),
             Text(
               '${widget.tile!.value}',
@@ -128,7 +128,7 @@ class _TileWidgetState extends State<TileWidget> with SingleTickerProviderStateM
       case 2048:
         return loc.human;
       default:
-        return tile.displayName;
+        return tile.getTileDisplayName(context, tile);
     }
   }
 

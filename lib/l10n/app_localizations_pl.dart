@@ -70,4 +70,25 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get continueGame => 'Kontynuuj';
+
+  @override
+  String get colony => 'Kolonia komórek';
+
+  @override
+  String get jellyfish => 'Bezkręgowiec';
+
+  @override
+  String get amphibian => 'Płaz';
+
+  @override
+  String get reptile => 'Gad';
+
+  @override
+  String get primate => 'Małpa';
+
+  @override
+  String get earlyHuman => 'Homo habilis';
+
+  @override
+  String get modernHuman => 'Homo sapiens';
 }

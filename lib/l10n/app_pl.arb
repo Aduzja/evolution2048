@@ -19,5 +19,16 @@
   "playAgain": "Zagraj jeszcze raz",
   "youWin": "Wygrałeś!",
   "reachedHuman": "Osiągnąłeś Homo sapiens!",
-  "continueGame": "Kontynuuj"
+  "continueGame": "Kontynuuj",
+  "prokaryote": "Prokariota",
+"amoeba": "Ameba",
+"colony": "Kolonia komórek",
+"jellyfish": "Bezkręgowiec",
+"fish": "Ryba",
+"amphibian": "Płaz",
+"reptile": "Gad",
+"mammal": "Ssak",
+"primate": "Małpa",
+"earlyHuman": "Homo habilis",
+"modernHuman": "Homo sapiens"
 }

@@ -220,6 +220,48 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Continue'**
   String get continueGame;
+
+  /// No description provided for @colony.
+  ///
+  /// In en, this message translates to:
+  /// **'Multicellular Colony'**
+  String get colony;
+
+  /// No description provided for @jellyfish.
+  ///
+  /// In en, this message translates to:
+  /// **'Jellyfish'**
+  String get jellyfish;
+
+  /// No description provided for @amphibian.
+  ///
+  /// In en, this message translates to:
+  /// **'Amphibian'**
+  String get amphibian;
+
+  /// No description provided for @reptile.
+  ///
+  /// In en, this message translates to:
+  /// **'Reptile'**
+  String get reptile;
+
+  /// No description provided for @primate.
+  ///
+  /// In en, this message translates to:
+  /// **'Primate'**
+  String get primate;
+
+  /// No description provided for @earlyHuman.
+  ///
+  /// In en, this message translates to:
+  /// **'Homo habilis'**
+  String get earlyHuman;
+
+  /// No description provided for @modernHuman.
+  ///
+  /// In en, this message translates to:
+  /// **'Homo sapiens'**
+  String get modernHuman;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

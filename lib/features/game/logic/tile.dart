@@ -1,3 +1,4 @@
+import 'package:evolution2048/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 
 enum TileType {
@@ -61,61 +62,34 @@ class Tile {
     }
   }
 
-  String get displayName {
-    switch (type) {
-      case TileType.prokaryote:
-        return "Prokariota";
-      case TileType.amoeba:
-        return "Ameba";
-      case TileType.colony:
-        return "Kolonia komórek";
-      case TileType.jellyfish:
-        return "Bezkręgowiec";
-      case TileType.fish:
-        return "Ryba";
-      case TileType.amphibian:
-        return "Płaz";
-      case TileType.reptile:
-        return "Gad";
-      case TileType.mammal:
-        return "Ssak";
-      case TileType.primate:
-        return "Małpa";
-      case TileType.earlyHuman:
-        return "Homo habilis";
-      case TileType.modernHuman:
-        return "Homo sapiens";
-      default:
-        return "";
-    }
-  }
 
-  String get englishName {
-    switch (type) {
+String getTileDisplayName(BuildContext context, Tile tile) {
+    final loc = AppLocalizations.of(context)!;
+    switch (tile.type) {
       case TileType.prokaryote:
-        return "Prokaryote";
+        return loc.prokaryote;
       case TileType.amoeba:
-        return "Amoeba";
+        return loc.amoeba;
       case TileType.colony:
-        return "Multicellular Colony";
+        return loc.colony;
       case TileType.jellyfish:
-        return "Jellyfish";
+        return loc.jellyfish;
       case TileType.fish:
-        return "Fish";
+        return loc.fish;
       case TileType.amphibian:
-        return "Amphibian";
+        return loc.amphibian;
       case TileType.reptile:
-        return "Reptile";
+        return loc.reptile;
       case TileType.mammal:
-        return "Mammal";
+        return loc.mammal;
       case TileType.primate:
-        return "Primate";
+        return loc.primate;
       case TileType.earlyHuman:
-        return "Early Human";
+        return loc.earlyHuman;
       case TileType.modernHuman:
-        return "Modern Human";
+        return loc.modernHuman;
       default:
-        return "";
+        return '';
     }
   }
 
@@ -152,32 +126,32 @@ class Tile {
     return (value <= 4) ? Colors.grey.shade800 : Colors.white;
   }
 
-  IconData get tileIcon {
+  String get pngAssetPath {
     switch (type) {
       case TileType.prokaryote:
-        return Icons.coronavirus_outlined;
+        return 'assets/icons/prokaryote.png';
       case TileType.amoeba:
-        return Icons.blur_circular;
+        return 'assets/icons/amoeba.png';
       case TileType.colony:
-        return Icons.bubble_chart;
+        return 'assets/icons/colony.png';
       case TileType.jellyfish:
-        return Icons.waves;
+        return 'assets/icons/jellyfish.png';
       case TileType.fish:
-        return Icons.water;
+        return 'assets/icons/fish.png';
       case TileType.amphibian:
-        return Icons.pets;
+        return 'assets/icons/amphibian.png';
       case TileType.reptile:
-        return Icons.architecture;
+        return 'assets/icons/reptile.png';
       case TileType.mammal:
-        return Icons.mouse;
+        return 'assets/icons/mammal.png';
       case TileType.primate:
-        return Icons.emoji_nature;
+        return 'assets/icons/primate.png';
       case TileType.earlyHuman:
-        return Icons.accessibility_new;
+        return 'assets/icons/earlyHuman.png';
       case TileType.modernHuman:
-        return Icons.person;
+        return 'assets/icons/modernHuman.png';
       default:
-        return Icons.device_unknown;
+        return '';
     }
   }
 
