@@ -25,16 +25,29 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/evo1024.png"
+
+flutter_native_splash:
+  color: "#1E293B"
+  image: "assets/icons/splash.png"
+  android_12:
+    background_image: "assets/icons/splash.png"
+    icon_background_color: "#1E293B"
+  web: false
 
 flutter:
   generate: true
   uses-material-design: true
   assets:
-  - assets/icons/
+    - assets/icons/
 
 fonts:
   - family: PressStart2P
     fonts:
       - asset: assets/fonts/PressStart2P-Regular.ttf
-
-
